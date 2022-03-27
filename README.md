@@ -35,3 +35,8 @@ What do you need to do to complete the assignment -
 - [ ] achieve 10 merges
 
 
+https://www.netflix.com/ca/
+Jean Campos - sections 1 and 2.  
+Jean Lucas - sections 3 and 4. 
+Viviane Urbano  - sections 5 and 6.  
+
