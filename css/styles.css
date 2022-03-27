@@ -135,3 +135,22 @@ h3 {
 
   border: 0;
 }
+
+.cta-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  height: 60px;
+
+  margin: 0;
+  padding: 0 1em;
+
+  border: 0;
+  font-size: 1.625rem;
+  color: #fff;
+  background-color: #e50914;
+
+  cursor: pointer;
+}
