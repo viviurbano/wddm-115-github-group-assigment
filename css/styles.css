@@ -125,3 +125,13 @@ h3 {
   align-items: center;
   justify-content: center;
 }
+
+.cta-input {
+  width: 450px;
+  height: 60px;
+
+  margin: 0;
+  padding: 0 1rem;
+
+  border: 0;
+}
