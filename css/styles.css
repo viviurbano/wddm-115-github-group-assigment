@@ -118,6 +118,19 @@ h3 {
   fill: #e50914;
 }
 
+.redButton {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: normal;
+
+  padding: 7px 17px;
+
+  color: #fff;
+  background-color: #e50914;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
 .cta-form {
   display: flex;
   flex-direction: row;
@@ -201,17 +214,4 @@ h3 {
   text-align: center;
 
   padding: 70px 45px;
-}
-
-.redButton {
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: normal;
-
-  padding: 7px 17px;
-
-  color: #fff;
-  background-color: #e50914;
-  text-decoration: none;
-  border-radius: 3px;
 }
