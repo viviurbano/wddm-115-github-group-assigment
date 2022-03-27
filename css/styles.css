@@ -179,3 +179,13 @@ h3 {
 
   min-height: 640px;
 }
+
+.header-content {
+  height: 4rem;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: flex-start;
+  justify-content: space-between;
+}
