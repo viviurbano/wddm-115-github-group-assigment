@@ -154,3 +154,10 @@ h3 {
 
   cursor: pointer;
 }
+
+.right-arrow {
+  width: 0.35em;
+
+  stroke: #fff;
+  margin-left: 10px;
+}
