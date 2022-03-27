@@ -161,3 +161,21 @@ h3 {
   stroke: #fff;
   margin-left: 10px;
 }
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0.4) 50%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/87a1d9d8-a21d-4109-ba3a-c10d9055f5cf/46079480-d01b-46f9-bcf4-1f0e2337ade4/CA-en-20220307-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px 50px;
+
+  min-height: 640px;
+}
