@@ -202,3 +202,16 @@ h3 {
 
   padding: 70px 45px;
 }
+
+.redButton {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: normal;
+
+  padding: 7px 17px;
+
+  color: #fff;
+  background-color: #e50914;
+  text-decoration: none;
+  border-radius: 3px;
+}
