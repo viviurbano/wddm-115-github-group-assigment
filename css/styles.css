@@ -1,3 +1,57 @@
+@font-face {
+  font-family: "Netflix Sans";
+  font-weight: 100;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2)
+      format("woff2"),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff)
+      format("woff");
+}
+
+@font-face {
+  font-family: "Netflix Sans";
+  font-weight: 300;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff2)
+      format("woff2"),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff)
+      format("woff");
+}
+
+@font-face {
+  font-family: "Netflix Sans";
+  font-weight: 400;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2)
+      format("woff2"),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff)
+      format("woff");
+}
+
+@font-face {
+  font-family: "Netflix Sans";
+  font-weight: 700;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2)
+      format("woff2"),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff)
+      format("woff");
+}
+
+@font-face {
+  font-family: "Netflix Sans";
+  font-weight: 800;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff2)
+      format("woff2"),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff)
+      format("woff");
+}
+
+@font-face {
+  font-family: "Netflix Sans";
+  font-weight: 900;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2)
+      format("woff2"),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff)
+      format("woff");
+}
+
 /* css reset */
 
 html {
@@ -27,4 +81,137 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+}
+
+/*  */
+
+body {
+  color: #fff;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 300;
+
+  margin-bottom: 1rem;
+}
+
+.svg-icon-netflix-logo {
+  width: 8.375rem;
+  height: 2.25rem;
+  color: #e50914;
+  fill: #e50914;
+}
+
+.redButton {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: normal;
+
+  padding: 7px 17px;
+
+  color: #fff;
+  background-color: #e50914;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.cta-form {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-input {
+  width: 450px;
+  height: 60px;
+
+  margin: 0;
+  padding: 0 1rem;
+
+  border: 0;
+}
+
+.cta-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  height: 60px;
+
+  margin: 0;
+  padding: 0 1em;
+
+  border: 0;
+  font-size: 1.625rem;
+  color: #fff;
+  background-color: #e50914;
+
+  cursor: pointer;
+}
+
+.right-arrow {
+  width: 0.35em;
+
+  stroke: #fff;
+  margin-left: 10px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0.4) 50%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/87a1d9d8-a21d-4109-ba3a-c10d9055f5cf/46079480-d01b-46f9-bcf4-1f0e2337ade4/CA-en-20220307-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px 50px;
+
+  min-height: 640px;
+}
+
+.header-content {
+  height: 4rem;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.hero-content {
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  padding: 70px 45px;
 }
