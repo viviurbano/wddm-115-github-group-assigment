@@ -88,6 +88,7 @@ img {
 body {
   color: #fff;
   font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #000;
 }
 
 h1 {
@@ -220,12 +221,15 @@ h3 {
   background-color: #000;
   border-top: 8px solid #222;
   border-bottom: 8px solid #222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .container .main-content {
-  position: relative;  
-  max-width: 1100px;
-  margin: 0 auto;
+  position: relative;    
   padding: 70px 0;
   background-color: #000;
 }
@@ -262,4 +266,8 @@ h3 {
 .container .main-content .popup .text p {
   color: #0071eb;
   font-size: .9rem;
+}
+
+.container .main-content-right {
+  max-width: 500px;
 }
