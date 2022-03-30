@@ -1,9 +1,9 @@
 # wddm-115-github-group-assigment
 Repository group
 
-Team:  
+Team:
 
-🥸 [Jean Silva](https://github.com/jeanlsilva)  
+😜 [Jean Silva](https://github.com/jeanlsilva)  
 🤓 [Jean Campos](https://github.com/jeanffc)  
 🧐 [Viviane Urbano](https://github.com/viviurbano)
 
@@ -40,4 +40,3 @@ https://www.netflix.com/ca/
 Jean Campos - sections 1 and 2.\
 Jean Lucas - sections 3 and 4.\
 Viviane Urbano  - sections 5 and 6.
-
