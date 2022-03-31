@@ -256,15 +256,14 @@ h3 {
 
 .accordion {
   width: 700px;
-  margin: 5px auto;
-
-  /* display: flex; */
-  /* flex-direction: row; */
-
-  /* justify-content: space-between; */
+  margin: 40px auto;
 }
 
 .accordion-item {
+  width: 700px;
+  text-decoration: none;
+  border: none;
+  color: #fff;
   background-color: #484848;
   display: flex;
   justify-content: space-between;
