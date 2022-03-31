@@ -217,6 +217,11 @@ h3 {
   padding: 70px 45px;
 }
 
+.hero-content h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
 .section-border {
   border-bottom: 8px #353535 solid;
 }
@@ -247,4 +252,26 @@ h3 {
   height: 450px;
 
   max-width: none;
+}
+
+.accordion {
+  width: 700px;
+  margin: 5px auto;
+
+  /* display: flex; */
+  /* flex-direction: row; */
+
+  /* justify-content: space-between; */
+}
+
+.accordion-item {
+  background-color: #484848;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+.icon {
+  width: 24px;
+  height: 24px;
 }
