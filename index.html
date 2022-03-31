@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netflix Copy</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/script.js"></script>
   </head>
   <body>
     <section class="hero-container">
@@ -119,7 +120,6 @@
     <section></section>
     <div class="section-border"></div>
     <section class="section-container">
-      <!-- Vivi -- REMOVER ESSE COMENTÁRIO, É SÓ PRA EU LEMBRAR-->
       <div>
         <img
           src="https://occ-0-70-1722.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABdFTpLmANuJpYneLq8L5m7CunMCi8e8Nl4y7xaPVWzG3IeoDoq17egTQAthApKg_4sdRWdwuR8KadWu1frjL3JQImpwq.png?r=fcd"
@@ -134,9 +134,200 @@
         </p>
       </div>
     </section>
+    <div class="section-border"></div>
+    <section class="hero-content">
+      <h2>Frequently Asked Questions</h2>
 
-    <section>
-      <!-- Vivi -- REMOVER ESSE COMENTÁRIO, É SÓ PRA EU LEMBRAR-->
+      <div class="accordion">
+        <button onclick="toggleFunction(1)" class="accordion-item">
+          <h3>What is Netflix?</h3>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4v16m8-8H4"
+            />
+          </svg>
+        </button>
+
+        <div id="toggle-details-1">
+          <p>
+            Netflix is a streaming service that offers a wide variety of
+            award-winning TV shows, movies, anime, documentaries, and more on
+            thousands of internet-connected devices.
+          </p>
+          <p>
+            You can watch as much as you want, whenever you want without a
+            single commercial – all for one low monthly price. There's always
+            something new to discover and new TV shows and movies are added
+            every week!
+          </p>
+        </div>
+
+        <button onclick="toggleFunction(2)" class="accordion-item">
+          <h3>How much does Netflix cost?</h3>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4v16m8-8H4"
+            />
+          </svg>
+        </button>
+
+        <div id="toggle-details-2">
+          <p>
+            Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, 
+            all for one fixed monthly fee. Plans range from $9.99 to $20.99 a month. No extra costs, no contracts.
+          </p>         
+        </div>        
+        <button onclick="toggleFunction(3)" class="accordion-item">
+          <h3>Where can I watch?</h3>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4v16m8-8H4"
+            />
+          </svg>
+        </button>
+
+        <div id="toggle-details-3">
+          <p>
+            Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com 
+            from your personal computer or on any internet-connected device that offers the Netflix app, including smart 
+            TVs, smartphones, tablets, streaming media players and game consoles.
+          </p>
+
+          <p>
+            You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch 
+            while you're on the go and without an internet connection. Take Netflix with you anywhere.
+          </p>
+        </div>
+        <button onclick="toggleFunction(4)" class="accordion-item">
+          <h3>How do I cancel?</h3>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4v16m8-8H4"
+            />
+          </svg>
+        </button>
+
+        <div id="toggle-details-4">
+          <p>
+            Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online 
+            in two clicks. There are no cancellation fees – start or stop your account anytime.
+          </p>        
+        </div>
+        <button onclick="toggleFunction(5)" class="accordion-item">
+          <h3>What can I watch on Netflix?</h3>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4v16m8-8H4"
+            />
+          </svg>
+        </button>
+
+        <div id="toggle-details-5">
+          <p>
+            Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix 
+            originals, and more. Watch as much as you want, anytime you want.
+          </p>         
+        </div>
+        <button onclick="toggleFunction(6)" class="accordion-item">
+          <h3>Is Netflix good for kids?</h3>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4v16m8-8H4"
+            />
+          </svg>
+        </button>
+
+        <div id="toggle-details-6">
+          <p>
+            The Netflix Kids experience is included in your membership to give parents control while kids enjoy 
+            family-friendly TV shows and movies in their own space.
+          </p>
+          <p>
+            Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of 
+            content kids can watch and block specific titles you don’t want kids to see.
+          </p>         
+        </div>
+      </div>
+
+      <form action="">
+        <h3>
+          Ready to watch? Enter your email to create or restart your membership.
+        </h3>
+        <div class="cta-form">
+          <input
+            type="email"
+            name="email"
+            placeholder="Email address"
+            class="cta-input"
+          />
+          <button type="submit" class="cta-button">
+            <span>Get Started</span>
+            <span class="right-arrow">
+              <svg viewBox="0 0 6 12" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M.61 1.312l.78-.624L5.64 6l-4.25 5.312-.78-.624L4.36 6z"
+                  fill="none"
+                  fill-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+          </button>
+        </div>
+      </form>
     </section>
     <footer>
       <div class="wrapper footer">
