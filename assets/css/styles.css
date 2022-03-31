@@ -330,4 +330,21 @@ footer .wrapper {
 footer .wrapper .container {
   flex-direction: column;
   align-items: flex-start;
+  max-width: 1000px;
+}
+
+footer .main-content-top {
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 30px;
+}
+
+footer .main-content-top p {
+  margin-bottom: 30px;
+}
+
+footer .wrapper .columns-area {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
