@@ -87,6 +87,7 @@ img {
 
 body {
   color: #fff;
+  background-color: #000000;
   font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #000;
 }
@@ -285,4 +286,35 @@ h3 {
 
 .second .main-content-right {
   padding: 70px 0px;
+}
+.section-border {
+  border-bottom: 8px #353535 solid;
+}
+
+.section-container {
+  margin: 120px auto;
+  max-width: 1200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-container h2 {
+  font-size: 50px;
+  font-weight: 700;
+  padding: 0 48px;
+}
+
+.section-container p {
+  font-size: 26px;
+  font-weight: 400;
+  padding: 0 48px;
+  line-height: 1.6;
+}
+.img-section-container {
+  width: 550px;
+  height: 450px;
+
+  max-width: none;
 }
