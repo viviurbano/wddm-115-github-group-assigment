@@ -346,6 +346,12 @@ footer .wrapper .columns-area {
   width: 100%;
 }
 
+footer .wrapper a {
+  text-decoration: none;
+  color: #757575;
+  margin-bottom: 15px;
+}
+
 footer .wrapper .columns-area ul li:not(:last-child) {
   margin-bottom: 15px;
 }
@@ -357,6 +363,10 @@ footer select {
   height: 50px;
   padding: 10px;
   margin-bottom: 10px;
+}
+
+footer select::before {
+  content: '\e896';
 }
 
 footer select::after {
