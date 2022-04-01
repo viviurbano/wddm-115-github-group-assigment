@@ -431,3 +431,35 @@ footer select::before {
 footer select::after {
   margin-right: 20px;
 }
+
+@media (max-width: 1024px) {
+  .section-container, .first .container, .second .container {
+    flex-direction: column;
+  }
+
+  footer {
+    margin: auto;
+  }
+
+  footer .wrapper .container {
+    max-width: 80vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .accordion-item {
+    max-width: 80vw;
+  }
+
+  .cta-form {
+    width: 80vw;
+  }
+
+  .cta-button span {
+    font-size: 1rem;
+  }
+
+  footer .wrapper .columns-area {
+    flex-direction: column;
+  }
+}
